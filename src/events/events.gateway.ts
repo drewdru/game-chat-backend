@@ -45,5 +45,11 @@ export class EventsGateway extends WsAdapter {
       // save player udid to the client
       client.udid = udid
     });
+    client.on('error', () => console.log('errored'));
+
+  }
+  async handleDisconnect(client) {
+    console.log('disconect user: ', client.udid);
+    delete this.players[client.udid];
   }
 }
