@@ -10,6 +10,9 @@ This project was generated with [NestJS](https://docs.nestjs.com/) version 6.0.8
 ```bash
 $ npm install
 ```
+sudo cp ./ponychat /etc/nginx/sites-available/
+sudo ln -s /etc/nginx/sites-available/ponychat /etc/nginx/sites-enabled/ponychat
+sudo service nginx restart
 
 ## Running the app
 
