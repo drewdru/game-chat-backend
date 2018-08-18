@@ -1,8 +1,8 @@
-# pony-chat-backend
+# game-chat-backend
 
 ## Description
 
-Backend for ponyChat game
+Node.js backend for: https://github.com/valiafetisov/unity-webgl-multiplayer
 This project was generated with [NestJS](https://docs.nestjs.com/) version 6.0.8. 
 
 ## Installation
@@ -10,8 +10,8 @@ This project was generated with [NestJS](https://docs.nestjs.com/) version 6.0.8
 ```bash
 $ npm install
 ```
-sudo cp ./ponychat /etc/nginx/sites-available/
-sudo ln -s /etc/nginx/sites-available/ponychat /etc/nginx/sites-enabled/ponychat
+sudo cp ./gamechat /etc/nginx/sites-available/
+sudo ln -s /etc/nginx/sites-available/gamechat /etc/nginx/sites-enabled/gamechat
 sudo service nginx restart
 
 ## Running the app

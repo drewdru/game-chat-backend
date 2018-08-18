@@ -46,7 +46,6 @@ export class EventsGateway extends WsAdapter {
       client.udid = udid
     });
     client.on('error', () => console.log('errored'));
-
   }
   async handleDisconnect(client) {
     console.log('disconect user: ', client.udid);

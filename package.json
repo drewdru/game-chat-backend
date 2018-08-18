@@ -1,7 +1,7 @@
 {
-  "name": "pony-chat-backend",
+  "name": "game-chat-backend",
   "version": "0.0.1",
-  "description": "Backend for ponyChat game",
+  "description": "Backend for gameChat game",
   "author": "Drew Dru",
   "scripts": {
     "format": "prettier --write \"**/*.ts\"",
@@ -30,6 +30,7 @@
     "@types/jest": "^21.1.8",
     "@types/node": "^9.3.0",
     "@types/supertest": "^2.0.4",
+    "@types/ws": "^5.1.2",
     "jest": "^21.2.1",
     "nodemon": "^1.14.1",
     "prettier": "^1.11.1",
